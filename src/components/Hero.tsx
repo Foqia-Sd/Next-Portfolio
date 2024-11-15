@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import Profile from "@/assets/images/profile.png"
-import Navbar from './Navbar'
 
 const Hero = () => {
   return (

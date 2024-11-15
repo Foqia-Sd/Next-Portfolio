@@ -2,7 +2,7 @@
 
 import Contact from "@/components/Contact";
 import Hero from "@/components/Hero";
-import Navbar from "@/components/Navbar";
+import Header from "@/components/Header";
 import Projects from "@/components/projects";
 import Skills from "@/components/Skills";
 import AOS from 'aos';
@@ -25,7 +25,7 @@ export default function Home() {
 
   return (
     <main>
-      <Navbar/>
+      <Header/>
       <Hero />
       <Projects />
       <Skills />

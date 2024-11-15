@@ -1,7 +1,7 @@
 import React from 'react'
 import { IoMenu } from 'react-icons/io5'
 
-const Navbar = () => {
+const Header = () => {
     return (
         <div className='container pt-8'>
             <div className='flex justify-between items-center'>
@@ -21,4 +21,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar
+export default Header
